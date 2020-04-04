@@ -9,310 +9,310 @@ let products = [
     {
         name: 'AeroCool Bolt TG',
         tag: 'aerocoolbolttg',
-        price: 15,
+        price: 399,
         inCart: 0
     },
     {
         name: 'AeroCool Shard TG',
         tag: 'aerocoolshardtg',
-        price: 20,
+        price: 649,
         inCart: 0
     },
     {
         name: 'Fractal Design Define C',
         tag: 'fractaldesigndefinec',
-        price: 25,
+        price: 999,
         inCart: 0
     },
     {
         name: 'Kolink Observatory RGB',
         tag: 'kolinkobservatoryrgb',
-        price: 30,
+        price: 749,
         inCart: 0
     },
     {
         name: 'Phanteks Eclipse P300',
         tag: 'phantekseclipsep300',
-        price: 35,
+        price: 599,
         inCart: 0
     },
     //MODERKORT
     {
         name: 'ASUS PRIME B360M-A',
         tag: 'asusprimeb360m-a',
-        price: 15,
+        price: 899,
         inCart: 0
     },
     {
         name: 'ASUS PRIME Z390-A',
         tag: 'asusprimez390-a',
-        price: 20,
+        price: 2190,
         inCart: 0
     },
     {
         name: 'ASUS ROG STRIX B450-F',
         tag: 'asusrogstrixb450-f',
-        price: 25,
+        price: 1389,
         inCart: 0
     },
     {
         name: 'ASUS ROG STRIX Z390-F',
         tag: 'asusrogstrixz390-f',
-        price: 30,
+        price: 2390,
         inCart: 0
     },
     {
         name: 'Gigabyte X570 AORUS ELITE',
         tag: 'gigabytex570aoruselite',
-        price: 35,
+        price: 2689,
         inCart: 0
     },
     //CPU
     {
         name: 'AMD Ryzen 5 3600',
         tag: 'amdryzen53600',
-        price: 15,
+        price: 2290,
         inCart: 0
     },
     {
         name: 'AMD Ryzen 9 3900X',
         tag: 'amdryzen93900x',
-        price: 20,
+        price: 6090,
         inCart: 0
     },
     {
         name: 'Intel Core i5 9600K',
         tag: 'intelcorei59600k',
-        price: 25,
+        price: 2889,
         inCart: 0
     },
     {
         name: 'Intel Core i7 9700K',
         tag: 'intelcorei79700k',
-        price: 30,
+        price: 4390,
         inCart: 0
     },
     {
         name: 'Intel Core i9 9900K',
         tag: 'intelcorei99900k',
-        price: 35,
+        price: 5690,
         inCart: 0
     },
     //GPU
     {
         name: 'GeForce GTX 1660 SUPER',
         tag: 'geforcegtx1660super',
-        price: 15,
+        price: 3090,
         inCart: 0
     },
     {
         name: 'GeForce RTX 2070 SUPER',
         tag: 'geforcertx2070super',
-        price: 20,
+        price: 7599,
         inCart: 0
     },
     {
         name: 'GeForce RTX 2080 Ti',
         tag: 'geforcertx2080ti',
-        price: 25,
+        price: 14990,
         inCart: 0
     },
     {
         name: 'Radeon RX 580',
         tag: 'radeonrx580',
-        price: 30,
+        price: 2390,
         inCart: 0
     },
     {
         name: 'Radeon RX 5700 XT',
         tag: 'radeonrx5700xt',
-        price: 35,
+        price: 5790,
         inCart: 0
     },
     //RAM
     {
         name: 'Ballistix 16GB (2x8GB) DDR4',
         tag: 'ballistix16gb(2x8gb)ddr4',
-        price: 15,
+        price: 832,
         inCart: 0
     },
     {
         name: 'Corsair 8GB (2x4GB) DDR4',
         tag: 'corsair8gb(2x4gb)ddr4',
-        price: 20,
+        price: 629,
         inCart: 0
     },
     {
         name: 'Corsair 16GB (2x8GB) DDR4',
         tag: 'corsair16gb(2x8gb)ddr4',
-        price: 25,
+        price: 999,
         inCart: 0
     },
     {
         name: 'Corsair 32GB (2x16GB) DDR4',
         tag: 'corsair32gb(2x16gb)ddr4',
-        price: 30,
+        price: 2190,
         inCart: 0
     },
     {
         name: 'G.Skill 16GB (2x8GB) DDR4',
         tag: 'g.skill16gb(2x8gb)ddr4',
-        price: 35,
+        price: 1390,
         inCart: 0
     },
     //Hårdisk
     {
         name: 'Seagate Desktop 1TB',
         tag: 'seagatedesktop1tb',
-        price: 15,
+        price: 590,
         inCart: 0
     },
     {
         name: 'Seagate Desktop 2TB',
         tag: 'seagatedesktop2tb',
-        price: 20,
+        price: 749,
         inCart: 0
     },
     {
         name: 'Seagate Desktop 3TB',
         tag: 'seagatedesktop3tb',
-        price: 25,
+        price: 1190,
         inCart: 0
     },
     {
         name: 'Seagate Desktop 4TB',
         tag: 'seagatedesktop4tb',
-        price: 30,
+        price: 1290,
         inCart: 0
     },
     {
         name: 'WD Blue 1TB',
         tag: 'wdblue1tb',
-        price: 35,
+        price: 590,
         inCart: 0
     },
     //SSD
     {
         name: 'Crucial MX500 1TB 2.5',
         tag: 'crucialmx5001tb2.5',
-        price: 15,
+        price: 1579,
         inCart: 0
     },
     {
         name: 'Kingston A400 480GB 2.5',
         tag: 'kingstona400480gb2.5',
-        price: 20,
+        price: 849,
         inCart: 0
     },
     {
         name: 'Samsung 860 EVO 1TB',
         tag: 'samsung860evo1tb',
-        price: 25,
+        price: 1799,
         inCart: 0
     },
     {
         name: 'Samsung 970 EVO Plus 1TB',
         tag: 'samsung970evoplus1tb',
-        price: 30,
+        price: 2690,
         inCart: 0
     },
     {
         name: 'Toshiba OCZ TR200 240GB',
         tag: 'toshibaocztr200240gb',
-        price: 35,
+        price: 529,
         inCart: 0
     },
     //fläkt
     {
         name: 'Corsair LL Series LL120',
         tag: 'corsairllseriesll120',
-        price: 15,
+        price: 315,
         inCart: 0
     },
     {
         name: 'Corsair ML120 Basic',
         tag: 'corsairml120basic',
-        price: 20,
+        price: 298,
         inCart: 0
     },
     {
         name: 'Corsair ML140 PRO',
         tag: 'corsairml140pro',
-        price: 25,
+        price: 349,
         inCart: 0
     },
     {
         name: 'Noctua NF-A12x25 PWM',
         tag: 'noctuanf-a12x25pwm',
-        price: 30,
+        price: 299,
         inCart: 0
     },
     {
         name: 'Noctua NF-A14 140mm',
         tag: 'noctuanf-a14140mm',
-        price: 35,
+        price: 229,
         inCart: 0
     },
     //CPU KYLNING
     {
         name: 'be quiet! Dark Rock Pro 4',
         tag: 'bequiet!darkrockpro4',
-        price: 15,
+        price: 990,
         inCart: 0
     },
     {
         name: 'be quiet! Pure Rock',
         tag: 'bequiet!purerock',
-        price: 20,
+        price: 379,
         inCart: 0
     },
     {
         name: 'Cooler Master MasterAir MA610P',
         tag: 'coolermastermasterairma610p',
-        price: 25,
+        price: 495,
         inCart: 0
     },
     {
         name: 'Corsair Hydro H100i RGB Platinum',
         tag: 'corsairhydroh100irgbplatinum',
-        price: 30,
+        price: 1449,
         inCart: 0
     },
     {
         name: 'Noctua NH-U12A',
         tag: 'noctuanh-u12a',
-        price: 35,
+        price: 1090,
         inCart: 0
     },
     //PSU
     {
         name: 'Corsair RM750x 750W v2 White Series',
         tag: 'corsairrm750x750wv2whiteseries',
-        price: 15,
+        price: 1690,
         inCart: 0
     },
     {
         name: 'Corsair RM750X 750W v2',
         tag: 'corsairrm750x750wv2',
-        price: 20,
+        price: 1390,
         inCart: 0
     },
     {
         name: 'Fractal Design EFFEKT 400W',
         tag: 'fractaldesigneffekt400w',
-        price: 25,
+        price: 899,
         inCart: 0
     },
     {
         name: 'Fractal Design Integra M 550W',
         tag: 'fractaldesignintegram550w',
-        price: 30,
+        price: 799,
         inCart: 0
     },
     {
         name: 'Thermaltake Smart RGB 700W',
         tag: 'thermaltakesmartrgb700w',
-        price: 35,
+        price: 790,
         inCart: 0
     },
 
