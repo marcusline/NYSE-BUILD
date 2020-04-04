@@ -1,0 +1,530 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device=width, intial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie=edge">
+        <link rel="stylesheet" href="cart.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="model-test.css">
+
+        <title>Shopping cart</title>
+    </head>
+        <body>
+                <header>
+                        <div class="overlay"></div>
+                        <nav>
+                            <h1 class="nyse">NYSE BUILD</h1>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="item.html">Computer parts</a></li>
+                                <li class="cart">
+                                    <a href="cart.html">
+                                        <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+        <!-------------------------------------------------------------------------------------------------------------->
+
+                    <!--Container chassi varje bild 260x380-->
+                    <h1 class="middleweird">Chassi</h1>
+                    <div class="container">
+                        <div class="image">
+                            
+                            <img onclick="vidclick()" src="images/aerocoolbolttg.jpg" alt="error" class="picture">
+                            <!-------------------------MODAL--------------------------------------->
+                            <div id="myModal" class="modal">
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                <span onclick="spanClick()" class="close">&times;</span>
+                                
+                                <div>
+                                    <table class="table table-dark">
+                                    <thead>
+                                    
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        </tr>
+                                        <tr>
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        </tr>
+                                        <tr>
+                                        <th scope="row">3</th>
+                                        <td>Larry</td>
+                            
+                                        </tr>
+                                    </tbody>
+                                    </table>
+                                    
+                                </div>
+                                
+                                </div>
+                            
+                            </div>
+                         <!--------------------------MODAL END-------------------------------------->
+                            <h3 class="textchange">AeroCool Bolt TG</h3>
+                            <h3 class="textchange">Pris 15kr</h3>
+                            <a class="add-cart cart1" href="#">Add cart</a>
+                            
+                            
+                        </div>
+
+                        <div class="image">
+                                <img src="images/aerocoolshardtg.jpg" alt="error" class="picture">
+                                <h3 class="textchange">AeroCool Shard TG</h3>
+                                <h3 class="textchange">Pris 20kr</h3>
+                                <a class="add-cart cart2" href="#">Add cart</a>
+                                
+                            </div>
+
+                            <div class="image">
+                                    <img src="images/fractaldesigndefinec.jpg" alt="error" class="picture">
+                                    <h3 class="textchange">Fractal Design Define C</h3>
+                                    <h3 class="textchange">Pris 25kr</h3>
+                                    <a class="add-cart cart3" href="#">Add cart</a>
+                                    
+                                    
+                                </div>
+
+                                <div class="image">
+                                        <img src="images/kolinkobservatoryrgb.jpg" alt="error" class="picture">
+                                        <h3 class="textchange">Kolink Observatory RGB</h3>
+                                        <h3 class="textchange">Pris 30kr</h3>
+                                        <a class="add-cart cart4" href="#">Add cart</a>
+                                        
+                                    </div>
+
+                                    <div class="image">
+                                            <img src="images/phantekseclipsep300.jpg" alt="error" class="picture">
+                                            <h3 class="textchange">Phanteks Eclipse P300</h3>
+                                            <h3 class="textchange">Pris 35kr</h3>
+                                            <a class="add-cart cart5" href="#">Add cart</a>
+                                            
+                                        </div>
+                    </div>
+            <!----------------------------------CHASSI END---------------------------------------------------------------------------->
+
+                    <!--Container moderkort-->
+                    <h1 class="middle">Moderkort</h1>
+                    <div class="container">
+                        <div class="image">
+                            <img src="images/asusprimeb360m-a.jpg" alt="error" class="picture"> 
+                            <h3 class="textchange">ASUS PRIME B360M-A</h3>
+                            <h3 class="textchange">Pris 15kr</h3>
+                            <a class="add-cart cart1" href="#/">Add cart</a>
+                            
+                        </div>
+
+                        <div class="image">
+                                <img src="images/asusprimez390-a.jpg" alt="error" class="picture">
+                                <h3 class="textchange">ASUS PRIME Z390-A</h3>
+                                <h3 class="textchange">Pris 20kr</h3>
+                                <a class="add-cart cart2" href="#/">Add cart</a>
+                                
+                            </div>
+
+                            <div class="image">
+                                    <img src="images/asusrogstrixb450-f.jpg" alt="error" class="picture">
+                                    <h3 class="textchange">ASUS ROG STRIX B450-F</h3>
+                                    <h3 class="textchange">Pris 25kr</h3>
+                                    <a class="add-cart cart3" href="#/">Add cart</a>
+                                    
+                                </div>
+
+                                <div class="image">
+                                        <img src="images/asusrogstrixz390-f.jpg" alt="error" class="picture">
+                                        <h3 class="textchange">ASUS ROG STRIX Z390-F</h3>
+                                        <h3 class="textchange">Pris 30kr</h3>
+                                        <a class="add-cart cart4" href="#/">Add cart</a>
+                                        
+                                    </div>
+
+                                    <div class="image">
+                                            <img src="images/gigabytex570aoruselite.jpg" alt="error" class="picture">
+                                            <h3 class="textchange">Gigabyte X570 AORUS ELITE</h3>
+                                            <h3 class="textchange">Pris 35kr</h3>
+                                            <a class="add-cart cart5" href="#/">Add cart</a>
+                                            
+                                        </div>
+                    </div>
+             <!------------------------------MODERKORT END-------------------------------------------------------------------------------->
+
+                    <!--CPU-->
+                    <h1 class="middle">CPU</h1>
+                    <div class="container">
+                        <div class="image">
+                            <img src="images/amdryzen53600.jpg" alt="error" class="picture">
+                            <h3 class="textchange">AMD Ryzen 5 3600</h3>
+                            <h3 class="textchange">Pris 15kr</h3>
+                            <a class="add-cart cart1" href="#/">Add cart</a>
+                            
+                        </div>
+
+                        <div class="image">
+                                <img src="images/amdryzen93900x.jpg" alt="error" class="picture">
+                                <h3 class="textchange">AMD Ryzen 9 3900X</h3>
+                                <h3 class="textchange">Pris 20kr</h3>
+                                <a class="add-cart cart2" href="#/">Add cart</a>
+                                
+                            </div>
+
+                            <div class="image">
+                                    <img src="images/intelcorei59600k.jpg" alt="error" class="picture">
+                                    <h3 class="textchange">Intel Core i5 9600K</h3>
+                                    <h3 class="textchange">Pris 25kr</h3>
+                                    <a class="add-cart cart3" href="#/">Add cart</a>
+                                    
+                                </div>
+
+                                <div class="image">
+                                        <img src="images/intelcorei79700k.jpg" alt="error" class="picture">
+                                        <h3 class="textchange">Intel Core i7 9700K</h3>
+                                        <h3 class="textchange">Pris 30kr</h3>
+                                        <a class="add-cart cart4" href="#/">Add cart</a>
+                                        
+                                    </div>
+
+                                    <div class="image">
+                                            <img src="images/intelcorei99900k.jpg" alt="error" class="picture">
+                                            <h3 class="textchange">Intel Core i9 9900K</h3>
+                                            <h3 class="textchange">Pris 35kr</h3>
+                                            <a class="add-cart cart5" href="#/">Add cart</a>
+                                            
+                                        </div>
+                    </div>
+    <!-------------------------------------------CPU END------------------------------------------------------------------->
+
+                    <!--Grafik Kort-->
+                    <h1 class="middle">Grafik kort</h1>
+                    <div class="container">
+                        <div class="image">
+                            <img src="images/geforcegtx1660super.jpg" alt="error" class="picture">
+                            <h3 class="textchange">GeForce GTX 1660 SUPER</h3>
+                            <h3 class="textchange">Pris 15kr</h3>
+                            <a class="add-cart cart1" href="#/">Add cart</a>
+                            
+                        </div>
+
+                        <div class="image">
+                                <img src="images/geforcertx2070super.jpg" alt="error" class="picture">
+                                <h3 class="textchange">GeForce RTX 2070 SUPER</h3>
+                                <h3 class="textchange">Pris 20kr</h3>
+                                <a class="add-cart cart2" href="#/">Add cart</a>
+                                
+                            </div>
+
+                            <div class="image">
+                                    <img src="images/geforcertx2080ti.jpg" alt="error" class="picture">
+                                    <h3 class="textchange">GeForce RTX 2080 Ti</h3>
+                                    <h3 class="textchange">Pris 25kr</h3>
+                                    <a class="add-cart cart3" href="#/">Add cart</a>
+                                    
+                                </div>
+
+                                <div class="image">
+                                        <img src="images/radeonrx580.jpg" alt="error" class="picture">
+                                        <h3 class="textchange">Radeon RX 580</h3>
+                                        <h3 class="textchange">Pris 30kr</h3>
+                                        <a class="add-cart cart4" href="#/">Add cart</a>
+                                        
+                                    </div>
+
+                                    <div class="image">
+                                            <img src="images/radeonrx5700xt.jpg" alt="error" class="picture">
+                                            <h3 class="textchange">Radeon RX 5700 XT</h3>
+                                            <h3 class="textchange">Pris 35kr</h3>
+                                            <a class="add-cart cart5" href="#/">Add cart</a>
+                                            
+                                        </div>
+                    </div>
+    <!--------------------------------------GRAFIK KORT END------------------------------------------------------------------------>
+
+                <!--------------------------RAM-------------------------------------------------------->
+                    <h1 class="middle">RAM</h1>
+                    <div class="container">
+                        <div class="image">
+                            
+                            <img src="images/ballistix16gb(2x8gb)ddr4.jpg" alt="error" class="picture">
+                            <h3 class="textchange">Ballistix 16GB (2x8GB) DDR4</h3>
+                            <h3 class="textchange">Pris 15kr</h3>
+                            <a class="add-cart cart1" href="#/">Add cart</a>
+                            
+                        </div>
+
+                        <div class="image">
+                                <img src="images/corsair8gb(2x4gb)ddr4.jpg" alt="error" class="picture">
+                                <h3 class="textchange">Corsair 8GB (2x4GB) DDR4</h3>
+                                <h3 class="textchange">Pris 20kr</h3>
+                                <a class="add-cart cart2" href="#/">Add cart</a>
+                                
+                            </div>
+
+                            <div class="image">
+                                    <img src="images/corsair16gb(2x8gb)ddr4.jpg" alt="error" class="picture">
+                                    <h3 class="textchange">Corsair 16GB (2x8GB) DDR4</h3>
+                                    <h3 class="textchange">Pris 25kr</h3>
+                                    <a class="add-cart cart3" href="#/">Add cart</a>
+                                    
+                                </div>
+
+                                <div class="image">
+                                        <img src="images/corsair32gb(2x16gb)ddr4.jpg" alt="error" class="picture">
+                                        <h3 class="textchange">Corsair 32GB (2x16GB) DDR4</h3>
+                                        <h3 class="textchange">Pris 30kr</h3>
+                                        <a class="add-cart cart4" href="#/">Add cart</a>
+                                        
+                                    </div>
+
+                                    <div class="image">
+                                            <img src="images/g.skill16gb(2x8gb)ddr4.jpg" alt="error" class="picture">
+                                            <h3 class="textchange">G.Skill 16GB (2x8GB) DDR4</h3>
+                                            <h3 class="textchange">Pris 35kr</h3>
+                                            <a class="add-cart cart5" href="#/">Add cart</a>
+                                            
+                                        </div>
+                    </div>
+                <!---------------------------RAM END----------------------------------------------------------------------------------->
+
+                <!--------------------------HÅRDISK--------------------------------->
+                    <h1 class="middle">Hårddisk</h1>
+                    <div class="container">
+                        <div class="image">
+                            
+                            <img src="images/seagatedesktop1tb.jpg" alt="error" class="picture">
+                            <h3 class="textchange">Seagate Desktop 1TB</h3>
+                            <h3 class="textchange">Pris 15kr</h3>
+                            <a class="add-cart cart1" href="#/">Add cart</a>
+                            
+                        </div>
+
+                        <div class="image">
+                                <img src="images/seagatedesktop2tb.jpg" alt="error" class="picture">
+                                <h3 class="textchange">Seagate Desktop 2TB</h3>
+                                <h3 class="textchange">Pris 20kr</h3>
+                                <a class="add-cart cart2" href="#/">Add cart</a>
+                                
+                            </div>
+
+                            <div class="image">
+                                    <img src="images/seagatedesktop3tb.jpg" alt="error" class="picture">
+                                    <h3 class="textchange">Seagate Desktop 3TB</h3>
+                                    <h3 class="textchange">Pris 25kr</h3>
+                                    <a class="add-cart cart3" href="#/">Add cart</a>
+                                    
+                                </div>
+
+                                <div class="image">
+                                        <img src="images/seagatedesktop4tb.jpg" alt="error" class="picture">
+                                        <h3 class="textchange">Seagate Desktop 4TB</h3>
+                                        <h3 class="textchange">Pris 30kr</h3>
+                                        <a class="add-cart cart4" href="#/">Add cart</a>
+                                        
+                                    </div>
+
+                                    <div class="image">
+                                            <img src="images/wdblue1tb.jpg" alt="error" class="picture">
+                                            <h3 class="textchange">WD Blue 1TB</h3>
+                                            <h3 class="textchange">Pris 35kr</h3>
+                                            <a class="add-cart cart5" href="#/">Add cart</a>
+                                            
+                                        </div>
+                    </div>
+     <!-----------------------------------HÅRDDISK END--------------------------------------------------------------------------->
+                    <!------------SSD-------------->
+                    <h1 class="middle">Solid state drive</h1>
+                    <div class="container">
+                        <div class="image">
+                            
+                            <img src="images/crucialmx5001tb2.5.jpg" alt="error" class="picture">
+                            <h3 class="textchange">Crucial MX500 1TB 2.5</h3>
+                            <h3 class="textchange">Pris 15kr</h3>
+                            <a class="add-cart cart1" href="#/">Add cart</a>
+                            
+                        </div>
+
+                        <div class="image">
+                                <img src="images/crucialmx5001tb2.5.jpg" alt="error" class="picture">
+                                <h3 class="textchange">Kingston A400 480GB 2.5</h3>
+                                <h3 class="textchange">Pris 20kr</h3>
+                                <a class="add-cart cart2" href="#/">Add cart</a>
+                                
+                            </div>
+
+                            <div class="image">
+                                    <img src="images/samsung860evo1tb.jpg" alt="error" class="picture">
+                                    <h3 class="textchange">Samsung 860 EVO 1TB</h3>
+                                    <h3 class="textchange">Pris 25kr</h3>
+                                    <a class="add-cart cart3" href="#/">Add cart</a>
+                                    
+                                </div>
+
+                                <div class="image">
+                                        <img src="images/samsung970evoplus1tb.jpg" alt="error" class="picture">
+                                        <h3 class="textchange">Samsung 970 EVO Plus 1TB</h3>
+                                        <h3 class="textchange">Pris 30kr</h3>
+                                        <a class="add-cart cart4" href="#/">Add cart</a>
+                                        
+                                    </div>
+
+                                    <div class="image">
+                                            <img src="images/toshibaocztr200240gb.jpg" alt="error" class="picture">
+                                            <h3 class="textchange">Toshiba OCZ TR200 240GB</h3>
+                                            <h3 class="textchange">Pris 35kr</h3>
+                                            <a class="add-cart cart5" href="#/">Add cart</a>
+                                            
+                                        </div>
+                    </div>
+    <!-----------------------------------SSD END--------------------------------------------------------------------------->
+
+                    <!--Fläkt-->
+                    <h1 class="middle">Fläkt</h1>
+                    <div class="container">
+                        <div class="image">
+                            
+                            <img src="images/corsairllseriesll120.jpg" alt="error" class="picture">
+                            <h3 class="textchange">Corsair LL Series LL120</h3>
+                            <h3 class="textchange">Pris 15kr</h3>
+                            <a class="add-cart cart1" href="#/">Add cart</a>
+                            
+                        </div>
+
+                        <div class="image">
+                                <img src="images/corsairml120basic.jpg" alt="error" class="picture">
+                                <h3 class="textchange">Corsair ML120 Basic </h3>
+                                <h3 class="textchange">Pris 20kr</h3>
+                                <a class="add-cart cart2" href="#/">Add cart</a>
+                                
+                            </div>
+
+                            <div class="image">
+                                    <img src="images/corsairml140pro.jpg" alt="error" class="picture">
+                                    <h3 class="textchange">Corsair ML140 PRO</h3>
+                                    <h3 class="textchange">Pris 25kr</h3>
+                                    <a class="add-cart cart3" href="#/">Add cart</a>
+                                    
+                                </div>
+
+                                <div class="image">
+                                        <img src="images/noctuanf-a12x25pwm.jpg" alt="error" class="picture">
+                                        <h3 class="textchange">Noctua NF-A12x25 PWM</h3>
+                                        <h3 class="textchange">Pris 30kr</h3>
+                                        <a class="add-cart cart4" href="#/">Add cart</a>
+                                        
+                                    </div>
+
+                                    <div class="image">
+                                            <img src="images/noctuanf-a14140mm.jpg" alt="error" class="picture">
+                                            <h3 class="textchange">Noctua NF-A14 140mm</h3>
+                                            <h3 class="textchange">Pris 35kr</h3>
+                                            <a class="add-cart cart5" href="#/">Add cart</a>
+                                            
+                                        </div>
+                    </div>
+    <!-----------------------------------FLÄKT END--------------------------------------------------------------------------->
+                        <!-- CPU FLÄKT-->
+                    <h1 class="middle">CPU Fläkt</h1>
+                    <div class="container">
+                        <div class="image">
+                            
+                            <img src="images/bequiet!darkrockpro4.jpg" alt="error" class="picture">
+                            <h3 class="textchange">be quiet! Dark Rock Pro 4</h3>
+                            <h3 class="textchange">Pris 15kr</h3>
+                            <a class="add-cart cart1" href="#/">Add cart</a>
+                            
+                        </div>
+
+                        <div class="image">
+                                <img src="images/bequiet!purerock.jpg" alt="error" class="picture">
+                                <h3 class="textchange">be quiet! Pure Rock</h3>
+                                <h3 class="textchange">Pris 20kr</h3>
+                                <a class="add-cart cart2" href="#/">Add cart</a>
+                                
+                            </div>
+
+                            <div class="image">
+                                    <img src="images/coolermastermasterairma610p.jpg" alt="error" class="picture">
+                                    <h3 class="textchange">Cooler Master MasterAir MA610P</h3>
+                                    <h3 class="textchange">Pris 25kr</h3>
+                                    <a class="add-cart cart3" href="#/">Add cart</a>
+                                    
+                                </div>
+
+                                <div class="image">
+                                        <img src="images/corsairhydroh100irgbplatinum.jpg" alt="error" class="picture">
+                                        <h3 class="textchange">Corsair Hydro H100i RGB Platinum</h3>
+                                        <h3 class="textchange">Pris 30kr</h3>
+                                        <a class="add-cart cart4" href="#/">Add cart</a>
+                                        
+                                    </div>
+
+                                    <div class="image">
+                                            <img src="images/noctuanh-u12a.jpg" alt="error" class="picture">
+                                            <h3 class="textchange">Noctua NH-U12A</h3>
+                                            <h3 class="textchange">Pris 35kr</h3>
+                                            <a class="add-cart cart5" href="#/">Add cart</a>
+                                            
+                                        </div>
+                    </div>
+ <!----------------------------------CPU FLÄKT END---------------------------------------------------------------------------->
+                    <!--PSU-->
+                    <h1 class="middle">PSU</h1>
+                    <div class="container">
+                        <div class="image">
+                            
+                            <img src="images/corsairrm750x750wv2whiteseries.jpg" alt="error" class="picture">
+                            <h3 class="textchange">Corsair RM750x 750W v2 White Series</h3>
+                            <h3 class="textchange">Pris 15kr</h3>
+                            <a class="add-cart cart1" href="#/">Add cart</a>
+                            
+                        </div>
+
+                        <div class="image">
+                                <img src="images/corsairrm750x750wv2.jpg" alt="error" class="picture">
+                                <h3 class="textchange">Corsair RM750X 750W v2</h3>
+                                <h3 class="textchange">Pris 20kr</h3>
+                                <a class="add-cart cart2" href="#/">Add cart</a>
+                                
+                            </div>
+
+                            <div class="image">
+                                    <img src="images/fractaldesigneffekt400w.jpg" alt="error" class="picture">
+                                    <h3 class="textchange">Fractal Design EFFEKT 400W</h3>
+                                    <h3 class="textchange">Pris 25kr</h3>
+                                    <a class="add-cart cart3" href="#/">Add cart</a>
+                                    
+                                </div>
+
+                                <div class="image">
+                                        <img src="images/fractaldesignintegram550w.jpg" alt="error" class="picture">
+                                        <h3 class="textchange">Fractal Design Integra M 550W</h3>
+                                        <h3 class="textchange">Pris 30kr</h3>
+                                        <a class="add-cart cart4" href="#/">Add cart</a>
+                                        
+                                    </div>
+
+                                    <div class="image">
+                                            <img src="images/thermaltakesmartrgb700w.jpg" alt="error" class="picture">
+                                            <h3 class="textchange">Thermaltake Smart RGB 700W</h3>
+                                            <h3 class="textchange">Pris 35kr</h3>
+                                            <a class="add-cart cart5" href="#/">Add cart</a>
+                                            
+                                        </div>
+                    </div>
+<!----------------------------------PSU END---------------------------------------------------------------------------->
+
+
+
+
+                    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+                    <script src="java.js"></script>
+                    <script src="model-test.js"></script>
+
+
+        </body>
+</html>
